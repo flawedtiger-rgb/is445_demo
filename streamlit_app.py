@@ -63,7 +63,7 @@ bars = (
     .add_params(click)
 )
 
-chart = alt.vconcat(points, bars, data=source, title="Seattle Weather: 2015-2021")
+chart = alt.vconcat(points, bars, data=source, title="Seattle Weather - 2015 to 2021")
 
 tab1, tab2 = st.tabs(["Streamlit theme (default)", "Altair native theme"])
 
